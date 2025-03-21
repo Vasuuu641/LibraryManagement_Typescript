@@ -1,3 +1,4 @@
+
 import {LibraryItem} from "../../Documents/GitHub/LibraryManagement_Typescript/LibraryItem";
 
 export class Book extends LibraryItem{
@@ -12,4 +13,6 @@ export class Book extends LibraryItem{
         super(title, author, publication_year, item_id, is_available);
     }
 }
+
+
 
