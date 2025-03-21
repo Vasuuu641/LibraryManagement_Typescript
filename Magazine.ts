@@ -1,4 +1,4 @@
-import {LibraryItem} from "../../Documents/GitHub/LibraryManagement_Typescript/LibraryItem";
+import {LibraryItem} from "./LibraryItem";
 
 export class Magazine extends LibraryItem{
     constructor(
