@@ -5,8 +5,7 @@ abstract class LibraryItem {
         public publication_year: number,
         private item_id: number,
         protected is_available: boolean
-    ) {
-    }
+    ) {}
 
     //Methods
     //1. Display_Info - Prints details of the item
@@ -35,3 +34,22 @@ abstract class LibraryItem {
         }
     }
 }
+
+class Book extends LibraryItem {
+    constructor(
+        public genre: string
+    ){}
+}
+
+class Magazine extends LibraryItem{
+    constructor(
+        public issue_number: number
+    ){}
+}
+
+class DVD extends LibraryItem{
+    constructor(
+        public duration_minutes: number
+    ) {}
+}
+
