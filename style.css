@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Library Section */
+.library {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Book Items */
+.book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Book Status */
+.status {
+    font-weight: bold;
+}
+
+.available {
+    color: green;
+}
+
+.unavailable {
+    color: red;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.borrow-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.return-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
