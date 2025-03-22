@@ -29,4 +29,10 @@ export class Library {
         console.log(`${this.items} are the available items in the library!`);
     }
 
+    // Get item by ID
+    GetItemById(item_id: number): LibraryItem | null {
+        const item = this.items.find(item => item.item_id === item_id);
+        return item || null;  // Return the found item or null if not found
+    }
+
 }
